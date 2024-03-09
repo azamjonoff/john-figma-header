@@ -1,0 +1,87 @@
+@font-face {
+  font-display: swap;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/heebo-v26-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/heebo-v26-latin-500.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/heebo-v26-latin-700.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Heebo", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 27px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.sitenav-list {
+  display: flex;
+  gap: 33px;
+  font-weight: 500px;
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+}
+
+.sitenav-link {
+  color: #000;
+  text-transform: capitalize;
+}
